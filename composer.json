@@ -1,7 +1,6 @@
 {
     "name": "mayunfeng/laravel-insideapi",
     "description": "insideapi for laravel",
-    "type": "mayunfeng/insideapi",
     "require": {
         "mayunfeng/insideapi": "^1.5"
     },
