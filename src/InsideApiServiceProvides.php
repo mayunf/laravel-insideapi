@@ -15,6 +15,13 @@ use InsideAPI\Foundation\Application;
 class InsideApiServiceProvides extends ServiceProvider 
 {
 
+    /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = true;
+
     public function boot()
     {
         $this->publishes([
@@ -32,6 +39,11 @@ class InsideApiServiceProvides extends ServiceProvider
         });
 
     }
+
+//    public function provides()
+//    {
+//        return array('insideapi');
+//    }
 
 
 }
