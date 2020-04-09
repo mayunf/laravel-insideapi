@@ -7,12 +7,15 @@
  */
 return [
     'insideapi'=> [
-        'debug'     => true,
-        'token'    => '',
-        'access_key'    => '',
+        'debug' => true,
         'guzzle' => [
             'timeout' => 3.0, // 超时时间（秒）
             'verify' => false, // 关掉 SSL 认证（强烈不建议！！！）
+            'base_uri' => 'https://api.xiaolutuiguang.com/api/',
         ],
+        'log' => [
+            'file' => 'insideapi.log',
+            'level' => 'debug'
+        ]
     ]
 ];

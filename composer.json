@@ -2,7 +2,7 @@
     "name": "mayunfeng/laravel-insideapi",
     "description": "insideapi for laravel",
     "require": {
-        "mayunfeng/insideapi": "^1.5"
+        "mayunfeng/insideapi": "~3.12"
     },
     "authors": [
         {
